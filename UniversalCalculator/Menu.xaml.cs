@@ -49,12 +49,15 @@ namespace Calculator
 
 		private void exit_Click(object sender, RoutedEventArgs e)
 		{
-			exit_Click(null, null);
+			// exit_Click(null, null);
+			Environment.Exit(0);
 		}
 
 		private void menuTitle_SelectionChanged(object sender, RoutedEventArgs e)
 		{
 
-        }
-    }
+		}
+
+		
+	}
 }
