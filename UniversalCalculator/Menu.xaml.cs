@@ -49,7 +49,7 @@ namespace Calculator
 
 		private void exit_Click(object sender, RoutedEventArgs e)
 		{
-			exit_Click(null, null);
+			Environment.Exit(0);
 		}
 	}
 }
